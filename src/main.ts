@@ -18,7 +18,7 @@ async function bootstrap() {
     .setDescription('API REST para gestión de productos, órdenes y clientes')
     .setVersion('1.0')
     .addServer('http://localhost:3000', 'Local')
-    .addServer('https://your-app.onrender.com', 'Producción')
+    .addServer('https://examen-ii-cgzds.onrender.com', 'Producción')
     .addBearerAuth(
       { type: 'http', scheme: 'bearer', bearerFormat: 'JWT' },
       'access-token',
