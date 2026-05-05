@@ -7,11 +7,6 @@ import { ProductsModule } from './products/products.module';
 import { CategoriesModule } from './categories/categories.module';
 import { OptionsModule } from './options/options.module';
 import { OrdersModule } from './orders/orders.module';
-import { CustomersModule } from './customers/customers.module';
-import { OptionsModule } from './options/options.module';
-import { CategoriesModule } from './categories/categories.module';
-import { ProductsModule } from './products/products.module';
-import { OrdersModule } from './orders/orders.module';
 
 @Module({
   imports: [
